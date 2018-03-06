@@ -7,6 +7,60 @@ margin: 0 auto;
 }
 body {background-color: #0C3642;}
 
+.story-text {border: 2px dotted;/*added dotted line border*/
+padding: 5px; /*added space between border and tex*/
+font-size: 15px;/*made font large readable size*/}
+
+.byline {text-decoration: underline;/*underlined byline*/
+  font-size: 22px;/*enlarged the byline*/
+  color: #0C3642;/*i wanted the byline to match the background color*/
+}
+.publish-time {font-family: monospace;/*this looks kinda more like a time stamp*/
+color: blue;/*blue color to timestamp*/}
+
+.article-pic{  display: block;/* made image a block element*/
+    margin-left: auto;/* auto margin for pic in onion article so i can center it*/
+    margin-right: auto;/* auto margin for pic in onion article ^^*/
+    width: 95%;/* reduced the size of image*/
+  border: 8px solid #0C3642;/* added a border to the picture*/}
+
+.quote{font-size: 16px;/*made this quote larger to add empahasis admittedly, it'd be better underneath an image*/
+font-style: italic;/* added italics for empahasis*/
+font-family: verdana;/*changed to a sansserif font*/
+background-color: #555555; /* gray background for my "button" */
+color: white;/*making text legible*/
+padding: 12px 32px;/*padding to style the content inside button*/
+text-align: center;/*centered text inside my button*/
+display: inline-block;/*nest the text inside button*/
+border-radius: 12px;/*gave the button rounded corners*/
+}
+
+h2 {border-bottom: 2px solid gray;/*added line below to create frame for title*/
+border-top: 2px solid gray;/*added line above to create frame for title*/
+margin-top: -5px;/*this just moved the title to the top a little bit more*/
+text-align: center;/*centered the title of this page*/
+}
+
+h1 {border-bottom: 4px solid gray;/*added line below to create frame for title*/
+border-top: 4px solid gray;/*added line above to create frame for title*/}
+
+h4{color:#0C3642;/*had these titles match the background color*/
+}
+
+ul {font-style: oblique;/*i thought this looked good for book titles*/
+font-family: sans-serif;/*san-serif for the list to separate from title*/
+}
+ol {font-family: sans-serif;/*san-serif for the list to separate from title*/
+}
+.author{font-size: 20px;/*enlarged this font to make it stand out*/
+  background-color: #4CAF50; /* Green i tried finding one that looked ok, i wanted this to look like a button */
+      color: white;/*to make text legible*/
+      padding: 12px 32px;/*giving it some breathing room*/
+      text-align: center;/*center text*/
+      display: inline-block;/*nests it in my button*/
+      font-size: 16px;/*changed font size to add emphasis/style*/
+    }
+
 
 @media(min-width: 640px){
 .left-list {float: left;
@@ -14,7 +68,10 @@ body {background-color: #0C3642;}
   margin-right: 5%;}
 .right-list {float: right;
   width: 45%;
-  margin-left: 5%;}
+  margin-left: 5%;
+  border-left: 2px dotted;/* added border to left of divide*/
+padding-left: 10px;/* added spacing between border and right text*/
+}
 }
 
 *{box-sizing: border-box;}
