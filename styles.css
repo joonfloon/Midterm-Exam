@@ -7,10 +7,12 @@ margin: 0 auto;
 }
 body {background-color: #0C3642;}
 .left-list {float: left;
-  width: 50%;
+  width: 45%;
+  margin-right: 5%;
 }
 .right-list {float: right;
-  width: 50%;
+  width: 45%;
+  margin-left: 5%;
 }
 
 *{box-sizing: border-box;}
