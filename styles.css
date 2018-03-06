@@ -6,13 +6,15 @@ overflow: auto;
 margin: 0 auto;
 }
 body {background-color: #0C3642;}
+
+
+@media(min-width: 640px){
 .left-list {float: left;
   width: 45%;
-  margin-right: 5%;
-}
+  margin-right: 5%;}
 .right-list {float: right;
   width: 45%;
-  margin-left: 5%;
+  margin-left: 5%;}
 }
 
 *{box-sizing: border-box;}
